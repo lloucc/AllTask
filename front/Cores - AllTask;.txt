@@ -1,0 +1,8 @@
+Cores - AllTask;
+
+#84E1D6
+#3FBFE0
+#67A1E0
+#3F8CE0
+#3F59E0
+#A296E0
