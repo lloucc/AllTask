@@ -20,141 +20,104 @@ body{
     font-family: "Roboto";  
 }
 
-.home-bar{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--color003);
-    height: 100%;
-    width: 50px;
-    z-index: 0;
-    margin-right: 50px;
+.main-container{
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-.home-bar {
-    width: 50px;
-    height: 100%;
-}
-svg{
-    /* filter: hue-rotate(0deg) saturate(3); */
-    padding: 5px;
-}
-
-.home-svg {
-    margin-top: 10px;
-}
-
-nav svg:hover {
-    background-color: rgba(111, 126, 202, 0.1);
-    border-radius: 10px;
-    opacity: 50%;
-}
-
-.block-areas{
-    margin-left: 50px;
-    position: relative;
-    transform: translateY(10%);
+.main-content{
     display: grid;
-    grid-gap: 10px;
-    justify-items: center;
-    display: grid;
-    padding: 10px;
-    
-    grid-template-columns: repeat(3, 1fr);
-}
-
-/* .block-areas {
-    display: flex;
-    flex-direction: row;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    flex: 1;
-    
-} */
-
-.block-areas div {
-    border-radius: 4%;
-    width: 400px;
-    height: 200px;
-    background-color: var(--color002);
+    margin-right: 10px;
+    margin-top: 20px;
 }
+/* ai ficou topperson */
+/* a margem não ta funcionando eu vi
+vou dar commit mano se o computador explodir a gente não consegue mais
+kkkkkkkkkk lembra de botar mensagem no commit 
+manda no main mesmo?
+pode ser, eu criei a branch pq eu nao tenho permissao de dar commit no main, tem q ser pull request
+depois você faz a request lá porque não apareceu nenhuma pra mim
+nao entendi
+quando eu vou tentar aplicar sua brench na main, ele não vai
+ja ta aplicado doggerson
+a
+pra comentar a commit no vs code é nessa caixinha?
+éh na caixa q da pra escr
+*/
 
-
-/* .block-area-1{
-    width: 200px;
-    height: 200px;
-    background-color: var(--color006);
-}
-.block-area-2{
-    width: 100px;
-    height: 100px;
-    background-color: var(--color006);
-    margin: 20px 0px;
-
-}
-.block-area-3{
-    width: 100px;
-    height: 100px;
-    background-color: var(--color006);
-    margin: 20px 0px;
-
-}
-.block-area-4{
-    width: 100px;
-    height: 100px;
-    background-color: var(--color006);
-}
-.block-area-5{
-    width: 100px;
-    height: 100px;
-    background-color: var(--color006);
-}
-.block-area-6{
-    width: 100px;
-    height: 100px;
-    background-color: var(--color006);
-} */
-
-.title-container {
+.items-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.title-items {
+    display: flex;
     align-items: center;
-    margin-left: 50px;
     flex: 1;
-    padding-bottom: 10px;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
     border-bottom: 1px solid black;
 }
 
-.text-title {
-    flex: 2;
-    font-size: 50px;
-    font-weight: 200;
+.three-points:hover {
+    background-color: rgb(128, 128, 128, 0.2);
+    border-radius: 10px;
 }
 
-.text-title .three-points .title-icon {
+.title {
+    flex: 2;
+    margin-left: 10px;
+}
+
+.navbar {
+    position: relative;
+    background-color: var(--color006);
+    width: 60px;
+    min-height: 100vh;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
 }
 
-@media (max-width: 1000px) {
-    .block-areas {
-        grid-template-columns: repeat(2, 1fr); 
-    }
+.icons svg:hover {
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    
 }
 
-@media (max-width: 700px) {
-    .block-areas {
-        grid-template-columns: 1fr; 
-    }
+.block-container{
+    background-color: #3F59E0;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    transition: 0.2s;
 }
-
-
-
-
-
-
+/* tem que fazer as coisa q fica dentro da caixa agora
+Eu num tinha pensado nisso
+kkkkkkkkkkkkkkkk
+ta top demais assim
+a tem q dar uma margem na direita ali ta colado na parede
+vou dar a margem
+eita pensei q era outra coisa em mano
+*/
+.block-container:hover{
+    background-color: #7485db;
+    height: 148px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    transform: scale(0.99);
+}
 
 
