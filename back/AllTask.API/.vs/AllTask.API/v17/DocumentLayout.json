@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\v\\AllTask\\back\\AllTask.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD39FA0-A64B-4A38-AAFD-D3E33FA56DF3}|AllTask.API.csproj|c:\\v\\alltask\\back\\alltask.api\\alltask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ACD39FA0-A64B-4A38-AAFD-D3E33FA56DF3}|AllTask.API.csproj|solutionrelative:alltask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE5A6A-1866-444A-8762-F54077D7B8FE}|..\\AllTask.Core\\AllTask.Core.csproj|c:\\v\\alltask\\back\\alltask.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{922C2925-4DA2-418F-8441-9B31F2CC07DD}|..\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj|c:\\v\\alltask\\back\\alltask.infrastructure\\alltask.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C4BBB-A30A-4DD3-B20A-AFE97A0CB08B}|..\\AllTask.Application\\AllTask.Application.csproj|c:\\v\\alltask\\back\\alltask.application\\alltask.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE5A6A-1866-444A-8762-F54077D7B8FE}|..\\AllTask.Core\\AllTask.Core.csproj|c:\\v\\alltask\\back\\alltask.core\\alltask.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD39FA0-A64B-4A38-AAFD-D3E33FA56DF3}|AllTask.API.csproj|c:\\v\\alltask\\back\\alltask.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD39FA0-A64B-4A38-AAFD-D3E33FA56DF3}|AllTask.API.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD39FA0-A64B-4A38-AAFD-D3E33FA56DF3}|AllTask.API.csproj|c:\\v\\alltask\\back\\alltask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD39FA0-A64B-4A38-AAFD-D3E33FA56DF3}|AllTask.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\v\\AllTask\\back\\AllTask.Core\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\AllTask.Core\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\v\\AllTask\\back\\AllTask.Core\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "..\\AllTask.Core\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:48:53.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllTask.API",
+              "DocumentMoniker": "C:\\v\\AllTask\\back\\AllTask.API\\AllTask.API.csproj",
+              "RelativeDocumentMoniker": "AllTask.API.csproj",
+              "ToolTip": "C:\\v\\AllTask\\back\\AllTask.API\\AllTask.API.csproj",
+              "RelativeToolTip": "AllTask.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T14:45:50.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AllTask.Infrastructure",
+              "DocumentMoniker": "C:\\v\\AllTask\\back\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
+              "ToolTip": "C:\\v\\AllTask\\back\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
+              "RelativeToolTip": "..\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T14:45:23.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllTask.Application",
+              "DocumentMoniker": "C:\\v\\AllTask\\back\\AllTask.Application\\AllTask.Application.csproj",
+              "RelativeDocumentMoniker": "..\\AllTask.Application\\AllTask.Application.csproj",
+              "ToolTip": "C:\\v\\AllTask\\back\\AllTask.Application\\AllTask.Application.csproj",
+              "RelativeToolTip": "..\\AllTask.Application\\AllTask.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T14:44:10.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllTask.Core",
+              "DocumentMoniker": "C:\\v\\AllTask\\back\\AllTask.Core\\AllTask.Core.csproj",
+              "RelativeDocumentMoniker": "..\\AllTask.Core\\AllTask.Core.csproj",
+              "ToolTip": "C:\\v\\AllTask\\back\\AllTask.Core\\AllTask.Core.csproj",
+              "RelativeToolTip": "..\\AllTask.Core\\AllTask.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T14:43:18.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\v\\AllTask\\back\\AllTask.API\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\v\\AllTask\\back\\AllTask.API\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:41:41.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\v\\AllTask\\back\\AllTask.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\v\\AllTask\\back\\AllTask.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:41:10.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
