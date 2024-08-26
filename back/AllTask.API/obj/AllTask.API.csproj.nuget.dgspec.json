@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\v\\AllTask\\back\\AllTask.API\\AllTask.API.csproj": {}
+    "C:\\v\\AllTask\\AllTask\\back\\AllTask.API\\AllTask.API.csproj": {}
   },
   "projects": {
-    "C:\\v\\AllTask\\back\\AllTask.API\\AllTask.API.csproj": {
+    "C:\\v\\AllTask\\AllTask\\back\\AllTask.API\\AllTask.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\v\\AllTask\\back\\AllTask.API\\AllTask.API.csproj",
+        "projectUniqueName": "C:\\v\\AllTask\\AllTask\\back\\AllTask.API\\AllTask.API.csproj",
         "projectName": "AllTask.API",
-        "projectPath": "C:\\v\\AllTask\\back\\AllTask.API\\AllTask.API.csproj",
+        "projectPath": "C:\\v\\AllTask\\AllTask\\back\\AllTask.API\\AllTask.API.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\v\\AllTask\\back\\AllTask.API\\obj\\",
+        "outputPath": "C:\\v\\AllTask\\AllTask\\back\\AllTask.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

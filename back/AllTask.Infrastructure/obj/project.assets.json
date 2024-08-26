@@ -4074,11 +4074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\v\\AllTask\\back\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
+      "projectUniqueName": "C:\\v\\AllTask\\AllTask\\back\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
       "projectName": "AllTask.Infrastructure",
-      "projectPath": "C:\\v\\AllTask\\back\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
+      "projectPath": "C:\\v\\AllTask\\AllTask\\back\\AllTask.Infrastructure\\AllTask.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\v\\AllTask\\back\\AllTask.Infrastructure\\obj\\",
+      "outputPath": "C:\\v\\AllTask\\AllTask\\back\\AllTask.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
