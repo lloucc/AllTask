@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --color001: #84E1D6;
+    --color002: #3FBFE0;
+    --color003: #67A1E0;
+    --color004: #3F8CE0;
+    --color005: #3F59E0;
+    --color006: #A296E0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";  
+}
+
+.main-container{
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.navbar {
+  position: relative;
+  background-color: var(--color006);
+  width: 60px;
+  min-height: 100vh;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.icons svg:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 10px;
+  
+}
+
+.main-content {
+  margin: 0 auto;
+  width: 650px;
+  max-height: 500px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.add-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+input, select {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid rgba(32, 178, 170, 0.5);
+  font-size: 16px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+input:focus, select:focus {
+  background-color: #ffffff;
+  border-color: #20b2aa;
+}
+
+.criar {
+  width: 100%;
+  background-color: #20b2aa;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.criar:hover {
+  background-color: #17a298;
+}
+
+.repeats {
+  align-self: start;
+  margin-top: 3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    width: 450px;
+    padding: 15px;
+  }
+  
+  .add-text {
+    font-size: 20px;
+  }
+
+  input, select, .criar {
+    font-size: 14px;
+  }
+}
