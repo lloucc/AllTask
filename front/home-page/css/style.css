@@ -34,20 +34,6 @@ body{
     margin-right: 10px;
     margin-top: 20px;
 }
-/* ai ficou topperson */
-/* a margem não ta funcionando eu vi
-vou dar commit mano se o computador explodir a gente não consegue mais
-kkkkkkkkkk lembra de botar mensagem no commit 
-manda no main mesmo?
-pode ser, eu criei a branch pq eu nao tenho permissao de dar commit no main, tem q ser pull request
-depois você faz a request lá porque não apareceu nenhuma pra mim
-nao entendi
-quando eu vou tentar aplicar sua brench na main, ele não vai
-ja ta aplicado doggerson
-a
-pra comentar a commit no vs code é nessa caixinha?
-éh na caixa q da pra escr
-*/
 
 .items-container {
     display: flex;
@@ -104,14 +90,7 @@ pra comentar a commit no vs code é nessa caixinha?
     box-shadow: 2px 2px 2px;
     transition: 0.2s;
 }
-/* tem que fazer as coisa q fica dentro da caixa agora
-Eu num tinha pensado nisso
-kkkkkkkkkkkkkkkk
-ta top demais assim
-a tem q dar uma margem na direita ali ta colado na parede
-vou dar a margem
-eita pensei q era outra coisa em mano
-*/
+
 .block-container:hover{
     background-color: #7485db;
     height: 148px;

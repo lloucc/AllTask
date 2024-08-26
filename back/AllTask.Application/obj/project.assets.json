@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\v\\AllTask\\back\\AllTask.Application\\AllTask.Application.csproj",
+      "projectUniqueName": "C:\\v\\AllTask\\AllTask\\back\\AllTask.Application\\AllTask.Application.csproj",
       "projectName": "AllTask.Application",
-      "projectPath": "C:\\v\\AllTask\\back\\AllTask.Application\\AllTask.Application.csproj",
+      "projectPath": "C:\\v\\AllTask\\AllTask\\back\\AllTask.Application\\AllTask.Application.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\v\\AllTask\\back\\AllTask.Application\\obj\\",
+      "outputPath": "C:\\v\\AllTask\\AllTask\\back\\AllTask.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
