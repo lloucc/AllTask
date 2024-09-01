@@ -10,3 +10,15 @@ C:\v\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.dll
 C:\v\AllTask\back\AllTask.Core\obj\Debug\net8.0\refint\AllTask.Core.dll
 C:\v\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.pdb
 C:\v\AllTask\back\AllTask.Core\obj\Debug\net8.0\ref\AllTask.Core.dll
+C:\v\AllTask\AllTask\back\AllTask.Core\bin\Debug\net8.0\AllTask.Core.deps.json
+C:\v\AllTask\AllTask\back\AllTask.Core\bin\Debug\net8.0\AllTask.Core.dll
+C:\v\AllTask\AllTask\back\AllTask.Core\bin\Debug\net8.0\AllTask.Core.pdb
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.AssemblyInfoInputs.cache
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.AssemblyInfo.cs
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.csproj.CoreCompileInputs.cache
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.sourcelink.json
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.dll
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\refint\AllTask.Core.dll
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\AllTask.Core.pdb
+C:\v\AllTask\AllTask\back\AllTask.Core\obj\Debug\net8.0\ref\AllTask.Core.dll

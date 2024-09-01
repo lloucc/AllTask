@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --color001: #84E1D6;
+  --color002: #3FBFE0;
+  --color003: #67A1E0;
+  --color004: #3F8CE0;
+  --color005: #3F59E0;
+  --color006: #A296E0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+main {
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  position: relative;
+  background-color: var(--color006);
+  width: 60px;
+  height: 100;
+  margin-right: 15px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.icons svg:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.day {
+  background-color: var(--color004);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.icons-day{
+  transition: 0.5;
+  cursor: pointer;
+}
+
+.icons-day:hover{
+  opacity: 95%;
+  transform: scale(0.9);
+  background-color: var(--color005);
+  border-radius: 10px;
+}
+    
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;  
+  padding: 10px;
+}
+
+.day-name {
+  flex: 2;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.tasks-container:hover {
+  background-color: rgba(20, 96, 179, 0.4);
+}
+
+.tasks-text {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  color: rgb(255, 246, 246);
+}
