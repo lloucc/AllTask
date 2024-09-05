@@ -242,3 +242,5 @@ C:\v\AllTask\AllTask\back\Alltask.API\bin\Debug\net8.0\AllTask.Core.dll
 C:\v\AllTask\AllTask\back\Alltask.API\bin\Debug\net8.0\AllTask.Infrastructure.dll
 C:\v\AllTask\AllTask\back\Alltask.API\bin\Debug\net8.0\AllTask.Infrastructure.pdb
 C:\v\AllTask\AllTask\back\Alltask.API\bin\Debug\net8.0\AllTask.Core.pdb
+C:\v\AllTask\AllTask\back\AllTask.API\bin\Debug\net8.0\AllTask.Application.dll
+C:\v\AllTask\AllTask\back\AllTask.API\bin\Debug\net8.0\AllTask.Application.pdb

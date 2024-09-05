@@ -5,22 +5,22 @@ using Microsoft.AspNetCore.Mvc;
 namespace AllTask.API.Controllers;
 
 [ApiController]
-[Route("api/routine")]
-public class RoutineController : ControllerBase
+[Route("api/category")]
+public class CategoryController : ControllerBase
 {
     private readonly AllTaskDbContext _context;
 
-    public RoutineController(AllTaskDbContext context)
+    public CategoryController(AllTaskDbContext context)
     {
         _context = context;
     }
-
+    
     [HttpPost]
-    public async Task<IActionResult> SaveRoutine([FromBody] CreateRoutineInputModel model)
+    public async Task<IActionResult> SaveCategory(CreateCategoryInputModel model)
     {
-        var routine = model.FromEntity();
+        var category = model.FromEntity();
 
-        await _context.Routines.AddAsync(routine);
+        await _context.Categories.AddAsync(category);
         await _context.SaveChangesAsync();
         
         return Ok();

@@ -7,11 +7,11 @@ namespace AllTask.Core.Entities
         protected Routine()
         {}
 
-        public Routine(string name, int categoryId, Category category, bool repeats) : base()
+        public Routine(string name, int categoryId, List<DaysOfWeek> days) : base()
         {
             Name = name;
+            Days = days;
             CategoryId = categoryId;
-            Category = category;
         }
 
         public string Name { get; private set; }

@@ -33,7 +33,12 @@ public class AllTaskDbContext : DbContext
         builder
             .Entity<Category>(e =>
             {
-                e.HasKey(r => r.Id);
+                e.HasKey(c => c.Id);
+
+                e.HasMany(c => c.Routines)
+                    .WithOne(r => r.Category)
+                    .HasForeignKey(r => r.CategoryId)
+                    .OnDelete(DeleteBehavior.Restrict);
             });
 
         builder
