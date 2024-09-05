@@ -4,39 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="#">
   <title>Criar nova tarefa</title>
 </head>
 <body>
   <div class="main-container">
     <nav class="navbar">
       <div class="icons">
-        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+        <svg onclick="redirectHome()" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M446.67-446.67H200v-66.66h246.67V-760h66.66v246.67H760v66.66H513.33V-200h-66.66v-246.67Z"/></svg>
       </div>
     </nav>
     <main class="main-content">
       <h2 class="add-text">Adicione uma nova tarefa</h2>
       <div class="form">
-        <form>
+        <form id="form">
           <div class="form-group">
             <label for="name">Nome da tarefa</label>
-            <input type="text" class="name" placeholder="Digite o nome da tarefa">
+            <input type="text" class="name" id="name" placeholder="Digite o nome da tarefa">
           </div>
           <div class="form-group">
             <label for="category">Categoria</label>
-            <select name="category" id="category">
+            <select name="category" class="category" id="category">
               <option value="test1">test1</option>
               <option value="add"><svg xmlns="http://www.w3.org/2000/svg" height="5px" viewBox="0 -960 960 960" width="5px" fill="#e8eaed"><path d="M446.67-446.67H200v-66.66h246.67V-760h66.66v246.67H760v66.66H513.33V-200h-66.66v-246.67Z"/></svg>Adicione uma nova categoria</option>
             </select> 
           </div>
           <div class="form-group">
-            <label for="hour">Horario</label>
-            <input type="text" class="hour">
+            <label for="domingo">Dias</label>
+            <div class="checkboxs">
+            
+            <input type="checkbox" name="domingo" id="domingo">
+            <span>Domingo</span>
+            
+            <input type="checkbox" name="segunda" id="segunda">
+            <span>Segunda</span>
+            
+            <input type="checkbox" name="terça" id="terça">
+            <span>Terça</span>
+            
+            <input type="checkbox" name="quarta" id="quarta">
+            <span>Quarta</span>
+            
+            <input type="checkbox" name="quinta" id="quinta">
+            
+            <span>Quinta</span>
+            <input type="checkbox" name="sexta" id="sexta">
+            <span>Sexta</span>
+            
+            <input type="checkbox" name="sabado" id="sabado">
+            <span>Sábado</span>
           </div>
-          <div class="form-group">
+          </div>
+          <!-- <div class="form-group">
             <label for="repeats">Se repete todos os dias?</label>
             <input type="checkbox" class="repeats">
-          </div>
+          </div> -->
           <div class="form-group">
             <button class="criar" type="submit">Criar</button>
           </div>
@@ -46,4 +69,5 @@
     </main>
   </div>
 </body>
+<script src="../js/Routine.js"></script>
 </html>
