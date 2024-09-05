@@ -11,5 +11,6 @@ namespace AllTask.Core.Entities
         }
 
         public string Name { get; private set; }
+        public List<Routine> Routines { get; private set; }
     }
 }

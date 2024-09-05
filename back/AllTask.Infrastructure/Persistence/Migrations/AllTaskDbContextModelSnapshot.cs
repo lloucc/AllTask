@@ -59,8 +59,9 @@ namespace AllTask.Infrastructure.Persistence.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("IdCategory")
-                        .HasColumnType("int");
+                    b.Property<string>("Days")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -69,9 +70,6 @@ namespace AllTask.Infrastructure.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("Repeats")
-                        .HasColumnType("bit");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
@@ -79,7 +77,55 @@ namespace AllTask.Infrastructure.Persistence.Migrations
                     b.ToTable("Routines");
                 });
 
+            modelBuilder.Entity("AllTask.Core.Entities.Task", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Days")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RoutineId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("RoutineId");
+
+                    b.ToTable("Tasks");
+                });
+
             modelBuilder.Entity("AllTask.Core.Entities.Routine", b =>
+                {
+                    b.HasOne("AllTask.Core.Entities.Category", "Category")
+                        .WithMany("Routines")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("AllTask.Core.Entities.Task", b =>
                 {
                     b.HasOne("AllTask.Core.Entities.Category", "Category")
                         .WithMany()
@@ -87,7 +133,25 @@ namespace AllTask.Infrastructure.Persistence.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("AllTask.Core.Entities.Routine", "Routine")
+                        .WithMany("Tasks")
+                        .HasForeignKey("RoutineId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Routine");
+                });
+
+            modelBuilder.Entity("AllTask.Core.Entities.Category", b =>
+                {
+                    b.Navigation("Routines");
+                });
+
+            modelBuilder.Entity("AllTask.Core.Entities.Routine", b =>
+                {
+                    b.Navigation("Tasks");
                 });
 #pragma warning restore 612, 618
         }
