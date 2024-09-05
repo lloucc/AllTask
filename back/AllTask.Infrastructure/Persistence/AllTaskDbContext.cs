@@ -23,22 +23,13 @@ public class AllTaskDbContext : DbContext
             {
                 e.HasKey(r => r.Id);
 
-                e.HasOne(r => r.Category)
-                    .WithMany(c => c.Routines)
-                    .HasForeignKey(r => r.CategoryId)
-                    .OnDelete(DeleteBehavior.Restrict);
-
             });
 
         builder
             .Entity<Category>(e =>
             {
                 e.HasKey(c => c.Id);
-
-                e.HasMany(c => c.Routines)
-                    .WithOne(r => r.Category)
-                    .HasForeignKey(r => r.CategoryId)
-                    .OnDelete(DeleteBehavior.Restrict);
+                
             });
 
         builder

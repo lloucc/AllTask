@@ -1,0 +1,16 @@
+C:\v\AllTask\AllTask\back\AllTask.Application\bin\Debug\net8.0\AllTask.Application.deps.json
+C:\v\AllTask\AllTask\back\AllTask.Application\bin\Debug\net8.0\AllTask.Application.dll
+C:\v\AllTask\AllTask\back\AllTask.Application\bin\Debug\net8.0\AllTask.Application.pdb
+C:\v\AllTask\AllTask\back\AllTask.Application\bin\Debug\net8.0\AllTask.Core.dll
+C:\v\AllTask\AllTask\back\AllTask.Application\bin\Debug\net8.0\AllTask.Core.pdb
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.csproj.AssemblyReference.cache
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.AssemblyInfoInputs.cache
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.AssemblyInfo.cs
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.csproj.CoreCompileInputs.cache
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.sourcelink.json
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask..86296612.Up2Date
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.dll
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\refint\AllTask.Application.dll
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\AllTask.Application.pdb
+C:\v\AllTask\AllTask\back\AllTask.Application\obj\Debug\net8.0\ref\AllTask.Application.dll

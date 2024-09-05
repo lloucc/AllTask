@@ -1,6 +1,7 @@
 ﻿using AllTask.Application.Models;
 using AllTask.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AllTask.API.Controllers;
 
@@ -23,6 +24,17 @@ public class RoutineController : ControllerBase
         await _context.Routines.AddAsync(routine);
         await _context.SaveChangesAsync();
         
-        return Ok();
+        return NoContent();
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var result = await _context.Routines
+            .Include(r => r.Category)
+            .Where(r => !r.IsDeleted)
+            .ToListAsync();
+        
+        return Ok(result);
     }
 }

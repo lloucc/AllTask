@@ -186,7 +186,7 @@ body {
 
 .navbar {
     background-color: var(--secondary-light);
-    width: 70px;
+    min-width: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;

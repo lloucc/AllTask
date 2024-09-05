@@ -117,9 +117,9 @@ namespace AllTask.Infrastructure.Persistence.Migrations
             modelBuilder.Entity("AllTask.Core.Entities.Routine", b =>
                 {
                     b.HasOne("AllTask.Core.Entities.Category", "Category")
-                        .WithMany("Routines")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
@@ -142,11 +142,6 @@ namespace AllTask.Infrastructure.Persistence.Migrations
                     b.Navigation("Category");
 
                     b.Navigation("Routine");
-                });
-
-            modelBuilder.Entity("AllTask.Core.Entities.Category", b =>
-                {
-                    b.Navigation("Routines");
                 });
 
             modelBuilder.Entity("AllTask.Core.Entities.Routine", b =>
