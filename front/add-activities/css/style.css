@@ -18,6 +18,11 @@
 
 body {
   font-family: "Roboto";
+  color: azure;
+}
+
+h1{
+  color: black;
 }
 
 main {
@@ -84,11 +89,18 @@ main {
   flex: 1;
   align-items: center;  
   padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.content:hover{
+  background-color: var(--color003);
+  cursor: pointer;
+  color: black;
 }
 
 .day-name {
   flex: 2;
-  color: azure;
 }
 
 .tasks-container {
